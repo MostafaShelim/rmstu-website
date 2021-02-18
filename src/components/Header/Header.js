@@ -1,15 +1,15 @@
 import React from 'react';
+import { Button, Form, FormControl } from 'react-bootstrap';
+import logo from '../../images/logo.png';
 import './Header.css';
-import { Form, FormControl, Button } from 'react-bootstrap';
-import logo from '../../images/logo.png'
 const Header = () => {
     return (
         <div className="header">
             <div className="name-input">
                 <p id="para">RANGAMATI SCIENCE AND TECHNOLOGY UNIVERSITY</p>
                 <Form inline id="input">
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button variant="outline-success">Search</Button>
+                    <FormControl style={{width:'165px'}} type="text" placeholder="Search" className="mr-sm-2" />
+                    <Button style={{width:'70px',height:'35px'}} variant="outline-success">Search</Button>
                 </Form>
             </div>
             <div className="nav">

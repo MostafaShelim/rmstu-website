@@ -16,7 +16,7 @@
   color: #29a847;
 }
 #para {
-  width: 70%;
+  width: 80%;
   position: absolute;
   top: 0;
   left: 150px;
@@ -25,12 +25,20 @@
   font-size: 20px;
   letter-spacing: 2px;
   word-spacing: 4px;
+  font-weight: 600;
 }
 #input {
-  width: 25%;
+  width: 20%;
   position: absolute;
   right: 0px;
   margin-top: 6px;
+}
+.input {
+  width: 100px;
+}
+.button {
+  width: 70px;
+  height: 35px;
 }
 .nav {
   background: #333;
@@ -54,27 +62,27 @@
   font-weight: 600;
   padding: 2px 5px;
   transition: all 1s ease;
+  color: rgb(34, 1, 56);
 }
 .nav .navbar a:hover {
-    color: green;
-    border: 1px solid red;
-    background: white;
-    font-size: 14px;
-    font-weight: 600;
+  color: green;
+  border: 1px solid red;
+  background: white;
+  font-size: 14px;
+  font-weight: 600;
 }
 .nav .navbar .link {
   text-decoration: none;
 }
-.header .nav .navbar .logo{
-    background: white;
-    border-radius: 50%;
-    position: absolute;
-    left: 53%;
-    transform: translateX(-50%);
+.header .nav .navbar .logo {
+  background: #770216;
+  border-radius: 50%;
+  position: absolute;
+  left: 53%;
+  transform: translateX(-50%);
+  padding: 4px 0px;
 }
 
-.header .nav .navbar .mid1{
-    margin-right: 100px;
-}
-.header .nav .navbar .mid2{
+.header .nav .navbar .mid1 {
+  margin-right: 100px;
 }
