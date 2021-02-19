@@ -5,15 +5,22 @@
 }
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 .header {
-  height: 145px;
+  height: 120px;
   width: 100%;
-  border-bottom: 10px solid green;
+  border-bottom: 5px solid green;
+}
+.navbar-fixed-top{
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1020;
 }
 .header .name-input {
   width: 100%;
   height: 50px;
-  background: white;
-  color: #29a847;
+  background: rgb(197, 191, 191);
+  color: #047a20;
+  transition: all 2s ease-in-out;
 }
 #para {
   width: 80%;
@@ -23,10 +30,11 @@
   margin-top: 10px;
   font-family: "Poppins", sans-serif;
   font-size: 20px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   word-spacing: 4px;
   font-weight: 600;
 }
+
 #input {
   width: 20%;
   position: absolute;
@@ -49,7 +57,7 @@
   margin: 0 50px;
   transition: all 1s ease;
   position: relative;
-  height: 90px;
+  height: 65px;
 }
 .nav .navbar img {
   width: 70px;
@@ -62,7 +70,7 @@
   font-weight: 600;
   padding: 2px 5px;
   transition: all 1s ease;
-  color: rgb(34, 1, 56);
+  color: #ba84df;
 }
 .nav .navbar a:hover {
   color: green;
@@ -75,14 +83,167 @@
   text-decoration: none;
 }
 .header .nav .navbar .logo {
-  background: #770216;
+  background: #570808;
   border-radius: 50%;
   position: absolute;
   left: 53%;
   transform: translateX(-50%);
-  padding: 4px 0px;
+  margin-top: 15px;
+  padding: 5px 0px;
 }
 
 .header .nav .navbar .mid1 {
   margin-right: 100px;
+}
+.header .name-input p span {
+  animation: animate 8.5s linear infinite;
+}
+.header .name-input p span:nth-child(1) {
+  animation-delay: 0s;
+}
+.header .name-input p span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+.header .name-input p span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+.header .name-input p span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+.header .name-input p span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+.header .name-input p span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+.header .name-input p span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+.header .name-input p span:nth-child(8) {
+  animation-delay: 0.7s;
+}
+.header .name-input p span:nth-child(9) {
+  animation-delay: 0.8s;
+}
+.header .name-input p span:nth-child(10) {
+  animation-delay: 0.9s;
+}
+.header .name-input p span:nth-child(11) {
+  animation-delay: 1s;
+}
+.header .name-input p span:nth-child(12) {
+  animation-delay: 1.1s;
+}
+.header .name-input p span:nth-child(13) {
+  animation-delay: 1.2s;
+}
+.header .name-input p span:nth-child(14) {
+  animation-delay: 1.3s;
+}
+.header .name-input p span:nth-child(15) {
+  animation-delay: 1.4s;
+}
+.header .name-input p span:nth-child(16) {
+  animation-delay: 1.5s;
+}
+.header .name-input p span:nth-child(17) {
+  animation-delay: 1.6s;
+}
+.header .name-input p span:nth-child(18) {
+  animation-delay: 1.7s;
+}
+.header .name-input p span:nth-child(19) {
+  animation-delay: 1.8s;
+}
+.header .name-input p span:nth-child(20) {
+  animation-delay: 1.9s;
+}
+.header .name-input p span:nth-child(21) {
+  animation-delay: 2s;
+}
+.header .name-input p span:nth-child(22) {
+  animation-delay: 2.1s;
+}
+.header .name-input p span:nth-child(23) {
+  animation-delay: 2.2s;
+}
+.header .name-input p span:nth-child(24) {
+  animation-delay: 2.3s;
+}
+.header .name-input p span:nth-child(25) {
+  animation-delay: 2.4s;
+}
+.header .name-input p span:nth-child(26) {
+  animation-delay: 2.5s;
+}
+.header .name-input p span:nth-child(27) {
+  animation-delay: 2.6s;
+}
+.header .name-input p span:nth-child(28) {
+  animation-delay: 2.7s;
+}
+.header .name-input p span:nth-child(29) {
+  animation-delay: 2.8s;
+}
+.header .name-input p span:nth-child(30) {
+  animation-delay: 2.9s;
+}
+.header .name-input p span:nth-child(31) {
+  animation-delay: 3s;
+}
+.header .name-input p span:nth-child(32) {
+  animation-delay: 3.1s;
+}
+.header .name-input p span:nth-child(33) {
+  animation-delay: 3.2s;
+}
+.header .name-input p span:nth-child(34) {
+  animation-delay: 3.3s;
+}
+.header .name-input p span:nth-child(35) {
+  animation-delay: 3.4s;
+}
+.header .name-input p span:nth-child(36) {
+  animation-delay: 3.5s;
+}
+.header .name-input p span:nth-child(37) {
+  animation-delay: 3.6s;
+}
+.header .name-input p span:nth-child(38) {
+  animation-delay: 3.7s;
+}
+.header .name-input p span:nth-child(39) {
+  animation-delay: 3.8s;
+}
+.header .name-input p span:nth-child(40) {
+  animation-delay: 3.9s;
+}
+.header .name-input p span:nth-child(41) {
+  animation-delay: 4s;
+}
+.header .name-input p span:nth-child(42) {
+  animation-delay: 4.1s;
+}
+.header .name-input p span:nth-child(43) {
+  animation-delay: 4.2s;
+}
+.header .name-input p span:nth-child(44) {
+  animation-delay: 4.3s;
+}
+.header .name-input p span:nth-child(45) {
+  animation-delay: 4.4s;
+}
+@keyframes animate {
+  0%,50%,70%{
+    text-shadow: none;
+  }
+  100% {
+    color: white;
+    text-shadow: 0 0 10px white, 
+                 0 0 20px white, 
+                 0 0 40px white, 
+                 0 0 80px white,
+                 0 0 120px white,   
+                 0 0 160px white;
+  }
 }
