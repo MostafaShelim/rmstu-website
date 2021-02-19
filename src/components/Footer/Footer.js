@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
             <hr/>
             <div className="copywright">
-                <p>Developed and Designed By <span style={{color:'#333', fontWeight: '600', fontSize: '18px'}}>Golam Mostafa</span> 2<sup>nd</sup> batch, RMSTU</p>
+                <p>Developed and Designed By <span style={{color:'#333', fontWeight: '600', fontSize: '18px'}}>Golam Mostafa</span> 2<sup>nd</sup> batch, RMSTU - 2021</p>
                 <p>Co-operated By Atik Rajib</p>
             </div>
         </div>
