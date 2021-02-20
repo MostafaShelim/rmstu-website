@@ -14,6 +14,13 @@ const Footer = () => {
                         <span>U</span>
                     </h1>
                     <img src={logo} alt=""/>
+                    <p>PERMANENT ADDRESS</p>
+                    <h3>Rangamati Science and Technology University Vedvedi, Rangamati-4500</h3>
+                    <p>LIASON OFFICE ADDRESS</p>
+                    <h3>4th floor, C1 unit, 70/B, Dolphin Goli, Lake Circus, Kalabagan, Dhaka-1205</h3>
+                    <p>PHONE AND MOBILE</p>
+                    <h3>+880351-63893</h3>
+                    <h3>01704-383642</h3>
                 </div>
                 <div className="container-2">
                     <h2>ABOUT RMSTU</h2>
@@ -43,7 +50,6 @@ const Footer = () => {
             <hr/>
             <div className="copywright">
                 <p>Developed and Designed By <span style={{color:'#333', fontWeight: '600', fontSize: '18px'}}>Golam Mostafa</span> 2<sup>nd</sup> batch, RMSTU - 2021</p>
-                <p>Co-operated By Atik Rajib</p>
             </div>
         </div>
     );
