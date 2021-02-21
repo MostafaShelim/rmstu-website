@@ -1,14 +1,16 @@
 import React from 'react';
-import Departments from '../Departments/Departments';
-import Institutes from '../Institutes/Institutes';
-import Notice from '../Notice/Notice';
+import HomeDepartments from '../HomeDepartments/HomeDepartments';
+import HomeInstitutes from '../HomeInstitutes/HomeInstitutes';
+import HomeNotice from '../HomeNotice/HomeNotice';
+import Slider from '../Slider/Slider';
 
 const Main = () => {
     return (
         <div>
-            <Notice></Notice>
-            <Departments></Departments>
-            <Institutes></Institutes>
+            <Slider></Slider>
+            <HomeNotice></HomeNotice>
+            <HomeDepartments></HomeDepartments>
+            <HomeInstitutes></HomeInstitutes>
         </div>
     );
 };

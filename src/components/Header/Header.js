@@ -52,8 +52,8 @@ const Header = () => {
                     <span>Y</span>
                     </p>
                 <Form inline id="input">
-                    <FormControl style={{width:'165px'}} type="text" placeholder="Search" className="mr-sm-2" />
-                    <Button style={{width:'70px',height:'35px'}} variant="outline-success">Search</Button>
+                    <FormControl style={{width:'165px', height:'30px'}} type="text" placeholder="Search" className="mr-sm-2" />
+                    <Button style={{width:'75px',height:'30px'}} variant="outline-success">Search</Button>
                 </Form>
             </div>
             <div className="nav">
@@ -65,11 +65,11 @@ const Header = () => {
                     <a className='link' href="/adminastration">ADMINASTRATION</a>
                     <a className='link mid1' href="/research">RESEARCH</a>
                     <img className="logo" src={logo} alt=""/>
-                    <a className='link mid2' href="/admission">ADMISSSION</a>
+                    <a className='link' href="/admission">ADMISSSION</a>
                     <a className='link' href="/notice">NOTICE</a>
                     <a className='link' href="/about">ABOUT</a>
                     <a className='link' href="/gallery">GALLERY</a>
-                    <a className='link' href="/web-mail">WEB-MAIL</a>
+                    <a className='link' href="/webmail">WEB-MAIL</a>
                     <a className='link' href="/contact">CONTACT US</a>
                 </div>
             </div>

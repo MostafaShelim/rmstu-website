@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Gallery = () => {
+const WebMail = () => {
     return (
         <div style={{paddingTop:'110px'}}>
-            <h1>Gallery</h1>
+            <h2>this is WebMail</h2>
         </div>
     );
 };
 
-export default Gallery;
+export default WebMail;

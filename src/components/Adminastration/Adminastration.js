@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Gallery = () => {
+const Adminastration = () => {
     return (
         <div style={{paddingTop:'110px'}}>
-            <h1>Gallery</h1>
+            <h2>this is adminastration</h2>
         </div>
     );
 };
 
-export default Gallery;
+export default Adminastration;

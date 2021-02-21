@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Gallery = () => {
+const Research = () => {
     return (
         <div style={{paddingTop:'110px'}}>
-            <h1>Gallery</h1>
+            <h2>this is research</h2>
         </div>
     );
 };
 
-export default Gallery;
+export default Research;
