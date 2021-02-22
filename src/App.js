@@ -38,7 +38,6 @@ function App() {
           <Route path="/research"><Research></Research></Route>
           <Route path="/webmail"><WebMail></WebMail></Route>
           <Route path='/notice'><Notice></Notice></Route>
-          {/* <Route path="/departments:"><Departments></Departments></Route> */}
           <Route path="*"><NotFound></NotFound></Route>
         </Switch>
       </Router>

@@ -2,6 +2,7 @@ import React from 'react';
 import { Button, Form, FormControl } from 'react-bootstrap';
 import logo from '../../images/logo.png';
 import './Header.css';
+import {Link} from 'react-router-dom';
 const Header = () => {
     return (
         <div className="header navbar-fixed-top">
@@ -58,7 +59,7 @@ const Header = () => {
             </div>
             <div className="nav">
                 <div className="navbar">
-                    <a className='link, active' href="/">HOME</a>
+                    <a className='link' href="/">HOME</a>
                     <a className='link' href="/departments">DEPARTMENTS</a>
                     <a className='link' href="/institutes">INSTITUTES</a>
                     <a className='link' href="/faculties">FACULTIES</a>
